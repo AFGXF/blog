@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -113,7 +113,7 @@ feed:
     path: atom.xml
     limit: 20
     hub:
-    content:
-    content_limit:
-    content_limit_delim: ' '
+    content: true
+    content_limit: 600
+    content_limit_delim: ' ...'
 

@@ -6,7 +6,8 @@
     "build": "hexo g",
     "clean": "hexo clean",
     "deploy": "hexo g -d",
-    "server": "hexo s -p 3000"
+    "server": "hexo s -p 3000",
+    "watch": "hexo g -f -w"
   },
   "hexo": {
     "version": "4.2.0"
