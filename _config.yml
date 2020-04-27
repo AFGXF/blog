@@ -7,13 +7,16 @@ title: AFGXF's Blog
 subtitle: 'AFGXF'
 description: ''
 keywords:
+    - Blog
+    - OI
+    - Linux
 author: AFGXF
-language: zh-cn
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://afgxf.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,3 +104,13 @@ deploy:
   type: git
   repository: git@github.com:AFGXF/afgxf.github.io.git
   branch: master
+
+# RSS Feed
+feed:
+    type: atom
+    path: feed.xml
+    limit: 20
+    hub:
+    content:
+    content_limit:
+    content_limit_delim: ' '

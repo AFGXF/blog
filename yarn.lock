@@ -124,7 +124,7 @@ binary-extensions@^2.0.0:
   resolved "https://registry.npm.taobao.org/binary-extensions/download/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha1-I8DfFPaogHf1+YbA0WfsA8PVU3w=
 
-bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
+bluebird@^3.2.2, bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
@@ -599,6 +599,18 @@ hexo-cli@^3.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
+hexo-deployer-git@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/hexo-deployer-git/download/hexo-deployer-git-2.1.0.tgz#2e72f05d7b318dbe29929d156ea13f9132354ff1"
+  integrity sha1-LnLwXXsxjb4pkp0VbqE/kTI1T/E=
+  dependencies:
+    bluebird "^3.5.0"
+    chalk "^3.0.0"
+    hexo-fs "^2.0.0"
+    hexo-util "^1.0.0"
+    moment "^2.18.0"
+    swig-templates "^2.0.2"
+
 hexo-front-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/hexo-front-matter/download/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
@@ -629,6 +641,14 @@ hexo-generator-category@^1.0.0:
   integrity sha1-zSorA+sybaPvgh1uKUCEiMwTLrU=
   dependencies:
     hexo-pagination "1.0.0"
+
+hexo-generator-feed@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/hexo-generator-feed/download/hexo-generator-feed-2.2.0.tgz#4b8b752a27d00525363e3449f18d063a92c13f0d"
+  integrity sha1-S4t1KifQBSU2PjRJ8Y0GOpLBPw0=
+  dependencies:
+    hexo-util "^1.3.0"
+    nunjucks "^3.0.0"
 
 hexo-generator-index@^1.0.0:
   version "1.0.0"
@@ -714,7 +734,7 @@ hexo-util@1.0.0:
     html-entities "^1.2.1"
     striptags "^3.1.1"
 
-hexo-util@^1.4.0, hexo-util@^1.8.0:
+hexo-util@^1.0.0, hexo-util@^1.3.0, hexo-util@^1.4.0, hexo-util@^1.8.0:
   version "1.9.0"
   resolved "https://registry.npm.taobao.org/hexo-util/download/hexo-util-1.9.0.tgz#0018429319720599253b2a3ddde0c5e4e4cfc652"
   integrity sha1-ABhCkxlyBZklOyo93eDF5OTPxlI=
@@ -982,7 +1002,7 @@ moment-timezone@^0.5.21:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.22.2:
+"moment@>= 2.9.0", moment@^2.10.6, moment@^2.18.0, moment@^2.22.2:
   version "2.24.0"
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s=
@@ -1071,7 +1091,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
-nunjucks@^3.1.3:
+nunjucks@^3.0.0, nunjucks@^3.1.3:
   version "3.2.1"
   resolved "https://registry.npm.taobao.org/nunjucks/download/nunjucks-3.2.1.tgz?cache=0&sync_timestamp=1584452949198&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnunjucks%2Fdownload%2Fnunjucks-3.2.1.tgz#f229539281e92c6ad25d8c578c9bdb41655caf83"
   integrity sha1-8ilTkoHpLGrSXYxXjJvbQWVcr4M=
@@ -1436,7 +1456,7 @@ swig-extras@0.0.1:
   dependencies:
     markdown "~0.5.0"
 
-swig-templates@^2.0.3:
+swig-templates@^2.0.2, swig-templates@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/swig-templates/download/swig-templates-2.0.3.tgz#6b4c43b462175df2a8da857a2043379ec6ea6fd0"
   integrity sha1-a0xDtGIXXfKo2oV6IEM3nsbqb9A=
