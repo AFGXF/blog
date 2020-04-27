@@ -1,10 +1,13 @@
 <footer id="footer">
   <% if (theme.sidebar === 'bottom'){ %>
-    <%- partial('_partial/sidebar') %>
+  <%- partial('_partial/sidebar') %>
   <% } %>
   <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+    <div id="footer-info" class="inner" style="margin: auto;text-align: center;">
+      <a href="https://afgxf.github.io/site">彩蛋</a>
+      <a href="./friendlinks/">友链</a>
+      <br />
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %> |
       <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>

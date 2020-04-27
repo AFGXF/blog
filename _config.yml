@@ -12,7 +12,7 @@ keywords:
     - Linux
 author: AFGXF
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: 'Asia/ShangHai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -104,7 +104,9 @@ deploy:
   type: git
   repository: git@github.com:AFGXF/afgxf.github.io.git
   branch: master
-
+# plugins
+plugins:
+    hexo-generator-feed
 # RSS Feed
 feed:
     type: atom
@@ -114,3 +116,4 @@ feed:
     content:
     content_limit:
     content_limit_delim: ' '
+
