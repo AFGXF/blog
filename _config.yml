@@ -102,11 +102,12 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:AFGXF/afgxf.github.io.git
+  repository: git@github.com:AFGXF/afgxf.github.io
   branch: master
 # plugins
 plugins:
     hexo-generator-feed
+    hexo-generator-json-content
 # RSS Feed
 feed:
     type: atom
@@ -117,3 +118,21 @@ feed:
     content_limit: 600
     content_limit_delim: ' ...'
 
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
